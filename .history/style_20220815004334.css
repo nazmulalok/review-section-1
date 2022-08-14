@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.py-70 {
+    padding: 70px 0;
+}
+
+.service-sec {
+    background: linear-gradient(55deg, rgba(225, 225, 253, 1) 54%, rgba(247, 219, 246, 1) 70%);
+    border-radius: 20px;
+    min-height: 450px;
+}
+
+p.sec-pg {
+    font-size: 19px;
+}
+
+.service-sec p {
+    font-size: 17px;
+}
+
+img.review-sec-img {
+    width: 3.5rem;
+}
+
+.review-sec {
+    margin-top: -115px;
+}
+
+.single-review-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 20px;
+    border: 1px solid #d6d6ff;
+    position: relative;
+}
+
+.single-review-box:after {
+    content: "";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 5px solid #c1c1fd;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    position: absolute;
+}
+
+.review-info .user-title a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #343f52;
+}
+
+.single-review-box .review-info .review-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.single-review-box .review-info img {
+    max-width: 100px;
+    align-self: center;
+}
+
+.single-review-box hr {
+    border-top: 1px solid whitesmoke;
+}
+
+.review-content blockquote {
+    color: #60697b;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.review-content:before {
+    content: '\f10e';
+    font-family: 'FontAwesome';
+    bottom: 90px;
+    right: 70px;
+    position: absolute;
+    width: 25px;
+    font-size: 100px;
+    height: 24px;
+    color: rgb(225 225 253 / 34%);
+}
